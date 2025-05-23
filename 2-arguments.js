@@ -1,8 +1,8 @@
-const argument = ["features", 0, 16];
+const argument = [0, "Best", "Best School"];
 
-if (argument.length === 0) {
+if (argument.length <= 0) {
   console.log("No argument");
-} else if (argument.length === 16) {
+} else if (argument.length >= 0 && argument.length <= 4) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
