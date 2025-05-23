@@ -1,9 +1,11 @@
-const argument = "features";
+const argument = ["features", 0, 50, "Amazements-children"];
 
-if (argument.length === 0) {
+for (let i = 0; i < argument.length; i++) {
+    if (argument[i] === 0) {
   console.log("No argument");
-} else if (argument.length === 1) {
+} else if (argument[i] === 16) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
+}
 }
