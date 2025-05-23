@@ -1,8 +1,8 @@
-const args = process.argv.slice(4);
+const argument = "features";
 
-if (args.length === 0) {
+if (argument.length === 0) {
   console.log("No argument");
-} else if (args.length === 1) {
+} else if (argument.length === 1) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
