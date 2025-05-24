@@ -1,5 +1,5 @@
-let args = ["C is fun", "Python is cool", "JavaScript is amazing"];
+let multiLines = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
-for(let i = 0; i < args.length; i++) {
-    console.log(args[i]);
+for (let i = 0; i < multiLines.length; i++) {
+    console.log(multiLines[i]);
 }
